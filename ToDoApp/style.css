@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,input,button{
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	padding: 15px;
+	background: #77a8a8;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 8px 4px 2px rgba(44,62,80,0.15);
+}
+
+header input{
+	width: 100%;
+	height: 50px;
+	border: 0px;
+	float: left;
+	padding:0 60px 0 0;
+	border-radius: 5px;
+	background-color: #d9ecd0;
+	box-shadow: none;
+	font-size: 18px;	
+	font-weight: 400dp;
+	text-indent: 20px;
+	outline: none;
+	color: #F7F7F7;
+	-webkit-appearance:none;
+	appearance:none;
+}
+
+header button{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index:2;
+	border: 0px;
+	outline: none;
+	border-radius:30px;
+	background-color: #fff;
+	box-shadow: none;
+	-webkit-appearance:none;
+	appearance:none;
+
+}
+
+header input::-webkit-input-placeholder{
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+
+}
+header input:-moz-input-placeholder{
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+
+}
+}
+header input::-moz-input-placeholder{
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+
+}
+}
+header input:-ms-input-placeholder{
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+
+}
